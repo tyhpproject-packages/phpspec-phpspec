@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpspec-phpspec",
+    "description": "Tyhp type definitions for phpspec/phpspec 8.3.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "8.3.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpspec-phpspec-impl": "~8.3.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpspec-phpspec-impl"
+        }
+    }
+}
